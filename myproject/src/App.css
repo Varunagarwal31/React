@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+/* my code */
+
+.row{
+  width: 100%;
+}
+.linkpages{
+  display: flex;
+  font-weight: 700;
+}
+#App{
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 767px){
+  .linkpages{justify-content: space-between;}
+}
