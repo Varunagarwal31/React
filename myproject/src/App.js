@@ -1,13 +1,13 @@
 import './App.css';
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-import About from './dynamic/About/About';
-import Footer from './dynamic/Footer/Footer';
-import Header from './dynamic/Header/Header';
-import Home from './dynamic/Home/Home';
-import Contact from './dynamic/Contact/Contact';
-import Courses from './dynamic/Courses/Courses';
-import Logout from './dynamic/Logout/Logout';
+import About from './dyanmic/About/About';
+import Footer from './dyanmic/Footer/Footer';
+import Header from './dyanmic/Header/Header';
+import Home from './dyanmic/Home/Home';
+import Contact from './dyanmic/Contact/Contact';
+import Courses from './dyanmic/Courses/Courses';
+import Logout from './dyanmic/Logout/Logout';
 
 function App() {
   return (
